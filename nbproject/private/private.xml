@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/moham/OneDrive/Documents/NetBeansProjects/Chess_/src/chess_/engine/classic/pieces/Piece.java</file>
+            <file>file:/C:/Users/moham/OneDrive/Documents/NetBeansProjects/Chess_/src/chess_/engine/classic/board/Board.java</file>
+            <file>file:/C:/Users/moham/OneDrive/Documents/NetBeansProjects/Chess_/src/chess_/engine/classic/pieces/Bishop.java</file>
+            <file>file:/C:/Users/moham/OneDrive/Documents/NetBeansProjects/Chess_/src/chess_/engine/classic/pieces/Queen.java</file>
+            <file>file:/C:/Users/moham/OneDrive/Documents/NetBeansProjects/Chess_/src/chess_/engine/bitboards/BitBoardV2.java</file>
+            <file>file:/C:/Users/moham/OneDrive/Documents/NetBeansProjects/Chess_/src/chess_/engine/classic/player/Player.java</file>
+            <file>file:/C:/Users/moham/OneDrive/Documents/NetBeansProjects/Chess_/src/chess_/engine/classic/pieces/Knight.java</file>
+            <file>file:/C:/Users/moham/OneDrive/Documents/NetBeansProjects/Chess_/src/chess_/gui/Table.java</file>
+            <file>file:/C:/Users/moham/OneDrive/Documents/NetBeansProjects/Chess_/src/chess_/engine/bitboards/BitBoard.java</file>
+            <file>file:/C:/Users/moham/OneDrive/Documents/NetBeansProjects/Chess_/src/chess_/engine/classic/pieces/PieceUtils.java</file>
+        </group>
+    </open-files>
+</project-private>

@@ -1,0 +1,43 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package chess_.gui;
+
+import java.awt.BorderLayout;
+import java.awt.Dimension;
+import java.util.Observable;
+import java.util.Observer;
+import javax.swing.JPanel;
+import javax.swing.JTextArea;
+
+/**
+ *
+ * @author moham
+ */
+class DebugPanel extends JPanel implements Observer {
+
+    private static final Dimension CHAT_PANEL_DIMENSION = new Dimension(600, 150);
+    private final JTextArea jTextArea;
+
+    public DebugPanel() {
+        super(new BorderLayout());
+        this.jTextArea = new JTextArea("");
+        add(this.jTextArea);
+        setPreferredSize(CHAT_PANEL_DIMENSION);
+        validate();
+        setVisible(true);
+    }
+
+    public void redo() {
+        validate();
+    }
+
+    @Override
+    public void update(final Observable obs,
+                       final Object obj) {
+        this.jTextArea.setText(obj.toString().trim());
+        redo();
+    }    
+}
